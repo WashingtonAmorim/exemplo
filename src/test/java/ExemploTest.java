@@ -37,8 +37,13 @@ public class ExemploTest {
     public void tearDown() {
     }
 
-     @Test
+    @Test
     public void hello() {
         assertEquals(true, Main.validar());
+    }
+    
+    @Test
+    public void hello2() {
+        assertEquals(false, ! Main.validar());
     }
 }
